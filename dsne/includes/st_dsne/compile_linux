@@ -1,0 +1,2 @@
+echo "Make sure to change the path to CBLAS in this file before running it!"
+g++  dsne.cpp -o dsne -O3 -I./CBLAS/include -L./ -lcblas

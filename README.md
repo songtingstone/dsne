@@ -1,6 +1,6 @@
 # DSNE
 Python library containing DSNE algorithms. 
-[Preprint](to be appear)
+[Preprint](https://arxiv.org/abs/2103.08509)
 ![png](./examples/data/Pancreas/scvelo_pancreas_dsne_umap_stream.png)
 ## Installation
 

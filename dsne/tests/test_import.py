@@ -7,5 +7,5 @@ def test_import():
 
 
 def test_import_st_dsne():
-    from dsne import dsne  # noqa
-    from dsne import dsne_approximate  # noqa
+    from dsne import DSNE  # noqa
+    from dsne import DSNE_approximate  # noqa

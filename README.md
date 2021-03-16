@@ -1,6 +1,6 @@
 # DSNE
+Visualizing Data Velocity using DSNE. [Preprint](https://arxiv.org/abs/2103.08509). 
 Python library containing DSNE algorithms. 
-[Preprint](https://arxiv.org/abs/2103.08509)
 ![png](./examples/data/Pancreas/scvelo_pancreas_dsne_umap_stream.png)
 ## Installation
 

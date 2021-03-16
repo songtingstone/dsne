@@ -1,5 +1,5 @@
 def test_seed():
-    from dsne import dsne
+    from dsne import DSNE
     from sklearn.datasets import load_iris
     from sklearn.decomposition import PCA
     import numpy as np
@@ -13,7 +13,7 @@ def test_seed():
     Y = pca.fit_transform(X)
 
 
-    t1 = dsne(X,V,Y, random_state=np.random.RandomState(0), copy_data=True)
+    t1 = DSNE(X,V,Y, random_state=np.random.RandomState(0), copy_data=True)
     # t2 = dsne(X,V,Y, random_state=np.random.RandomState(0), copy_data=True)
 
     assert t1.shape[0] == 150

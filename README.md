@@ -23,12 +23,6 @@ From PyPI:
 pip install dsne
 ```
 
-From conda:
-
-```
-conda install -c maxibor dsne
-```
-
 ## Usage
 
 Basic usage:
